@@ -3,7 +3,6 @@ chmod 777 -R /var/www/html/
 chown -R test-ssh:clp /var/www/html/
 cd /var/www/
 git clone https://github.com/magento/magento2-sample-data.git
-ls /magento2-sample-data/
 cd /var/www/html/
 bin/magento setup:upgrade
 bin/magento setup:di:compile
